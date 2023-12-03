@@ -2,7 +2,7 @@
 
 local e=Instance.new('BindableFunction')
 e.OnInvoke=function() setclipboard('https://discord.gg/XXqzxT7E5z') end
-game.StarterGui:SetCore('SendNotification',{Title='PyxPixel!',Text='Executer Loaded 😎!',Icon='http://www.roblox.com/asset/?id=15519717340',Duration=5,Button1='https://discord.com/invite/HP9cb449Z7',Callback=e})
+game.StarterGui:SetCore('SendNotification',{Title='PyxPixel!',Text='Executer Loaded!',Icon='http://www.roblox.com/asset/?id=15519717340',Duration=5,Button1='https://discord.com/invite/HP9cb449Z7',Callback=e})
 local a=''
 for i,v in ipairs({10972284553,10710676163,4522347649,5023687570,286090429,6708206173,3101667897}) do if game.PlaceId==v then a=game:HttpGet('https://raw.githubusercontent.com/k00pz/Skibidi-toilet/main/Pyxpixel-First-Executer') end end
 loadstring(game:HttpGet('https://raw.githubusercontent.com/k00pz/Skibidi-toilet/main/Pyxpixel-First-Executer')..a)()
